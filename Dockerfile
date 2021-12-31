@@ -17,7 +17,6 @@ RUN apt-get -y update  \
 RUN mkdir -p /root/workspace
 WORKDIR /root
 
-COPY trimui-toolchain.tar.xz /opt
 COPY setup-toolchain.sh .
 RUN ./setup-toolchain.sh
 
