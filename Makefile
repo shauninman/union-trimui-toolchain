@@ -1,7 +1,7 @@
 .PHONY: shell
 .PHONY: clean
 	
-TOOLCHAIN_NAME=union-trimui-toolchain
+TOOLCHAIN_NAME=trimui-toolchain
 WORKSPACE_DIR := $(shell pwd)/workspace
 
 .build: Dockerfile
